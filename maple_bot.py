@@ -1,5 +1,6 @@
 import discord
 import ScrapEventBroad
+import os
 
 TOKEN= "NTQyNDQ1NDIxMTI1OTU5Njgw.XZXz_g.vQm3vlfXQwmrQqFrxmbeBM2iJZU"
 
