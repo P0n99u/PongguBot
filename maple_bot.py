@@ -1,7 +1,7 @@
 import discord
 import ScrapEventBroad
 import os
-
+import Lotto
 TOKEN= os.environ["BOT_TOKEN"]
 
 client = discord.Client()
