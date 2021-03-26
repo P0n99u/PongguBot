@@ -22,4 +22,7 @@ async def on_message(message):
     if message.content.startswith("!금요일"):
         s=ScrapEventBroad.GetSundayInfo()
         await message.channel.send(s)
+    if message.content.startswith("!로또"):
+       s=Lotto.Get_Lotto()
+       await message.channel.send(s)
 client.run(TOKEN)
