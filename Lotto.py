@@ -7,7 +7,7 @@ def Get_Lotto():
 
     for i in range(0,7):
         if(i>=6):
-           s= s + f" 보너스 : {lotto_numbers[:-1]}"
+           s= s + f" 보너스 : {lotto_numbers[-1]}"
         
         s= s+f" {lotto_numbers[i]}"
 
