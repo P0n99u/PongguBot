@@ -6,7 +6,7 @@ def Get_Lotto():
     lotto_numbers.sort()
 
     for i in range(0,30):
-        if(i%=):
+        if(i%=6):
            s= s + "\n"
         
         s= s+f" {lotto_numbers[i]}"
