@@ -5,8 +5,8 @@ def Get_Lotto():
     for i in range(0,5):
         lotto_numbers = random.sample(range(1,46),6)
         lotto_numbers.sort()
-         for j in range(0,5):
-            s= s+f" {lotto_numbers[i]}"
+        for j in range(0,5):
+           s= s+f" {lotto_numbers[i]}"
     
     s= s+ f"\n─────────────\n☆★☆ 로또 번호  ★☆★\n─────────────\n"
     return s
