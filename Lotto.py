@@ -3,7 +3,7 @@ import random
 def Get_Lotto():
     loto_num=[]
     for i in range(0,5):
-        loto_num.append(random.sample(range(1,46),6))
+        loto_num.append(random.sample(range(1,46))
     
     s="☆★☆★ 로또 번호  ★☆★☆\n────────────────\n"
     for i in range(0,5):
