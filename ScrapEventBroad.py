@@ -7,7 +7,7 @@ def GetEventBorad():
     bs4=BeautifulSoup(html,"html.parser")
     tagList=bs4.findAll('a')
     for tag in tagList:
-        if "썬데이메이플" in tag:
+        if "썬데이 메이플" in tag:
             return MapleEvent+tag.get('href')[-3:]
     print("썬데이 공지가 안 올라왔거나 오류가 발생했습니다")
     return -1
