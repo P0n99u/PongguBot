@@ -1,5 +1,5 @@
-beautifulsoup4==4.9.3
-aiohttp==3.6.3
-discord.py==1.5.1
-requests==2.25.1
-async-timeout==3.0.1
+beautifulsoup4
+aiohttp
+discord.py
+requests
+async-timeout
